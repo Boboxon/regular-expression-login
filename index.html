@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+      integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <title>Sign In</title>
+  </head>
+  <body>
+    <h1>New User Sign Up</h1>
+
+    <form>
+      <input type="text" name="username" placeholder="username" />
+      <p>User name must be contain 5-12 charactors</p>
+
+      <input type="text" name="email" placeholder="email@example.com" />
+      <p>Email must be a valid address, e.g. me@mydomain.com</p>
+
+      <input type="password" name="password" placeholder="password" />
+      <p>
+        Password must alphanumeric (@, _ and - are also allowed) and be 8 - 20
+        characters
+      </p>
+
+      <input type="text" name="telephone" placeholder="phone number" />
+      <p>Telephone must be a valid South,Korea telephone number (11 digits)</p>
+    </form>
+    <button type="button" id="button1" class="btn btn-primary btn-lg">
+      Register
+    </button>
+
+    <script src="app.js"></script>
+  </body>
+</html>
